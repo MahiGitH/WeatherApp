@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Weather App</title>
+    <link rel="stylesheet" href="mycss.css" />
+  </head>
+  <body>
+    <div class="appContainer">
+      <header>
+        <h1><b>Weather App</b></h1>
+        <div class="mysearch">
+          <input
+            type="text"
+            autocomplete="off"
+            class="mySearch-box"
+            placeholder="Search weather by zipcode"
+          />
+        </div>
+      </header>
+      <main>
+        <section class="myLocation">
+          <div class="city"></div>
+          <div class="date"></div>
+        </section>
+        <div class="current">
+          <div class="temp"><span></span></div>
+          <div class="icon"></div>
+          <div class="weather"></div>
+          <div class="hi-lo"></div>
+          <div class="myhum">Humidity: <span class="humidity"></span></div>
+          <div class="mywind">Wind Speed: <span class="wind"></span></div>
+        </div>
+      </main>
+    </div>
+
+    <script src="index.js" defer></script>
+  </body>
+  <footer class="page-footer">
+    <small class="container">By Mahlite Tsegaye</small>
+  </footer>
+</html>

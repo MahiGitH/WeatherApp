@@ -1,0 +1,138 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  text-decoration-color: #7c7c7c6b;
+  color: #ffc922;
+  font-size: 90px;
+ font-weight: 800;
+}
+body {
+font-family: 'montserrat', sans-serif;
+background-image: url('OceanWave.png');
+background-size: cover;
+background-position: top center;
+}
+
+.appContainer {
+  display:flex;
+  flex-direction:column;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0,0,0,0.6));
+  /*text-align: center;*/
+}
+
+main {
+  flex: 1 1 100%;
+  padding: 25px 25px 50px;
+  display: flex;
+  flex-direction: column;
+  font-style: oblique;
+  align-items: center;
+  text-align: center;
+
+}
+
+.mysearch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 15px 15px;
+}
+
+header input {
+  width: 100%;
+  max-width: 280px;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  background-color: rgba(red, green, blue, alpha);
+  border-radius: 16px 0px 16px 0px;
+  border-bottom: 3px solid yellowgreen;
+
+  color: black;
+  font-size: 20px;
+  font-weight: 300;
+  transition: .2s ease-out;
+}
+
+header input:focus {
+  background-color: rgba(red, green, blue, 0.5);
+}
+
+.myLocation .city {
+color: azure;
+font-size: 32px;
+font-weight: 500;
+margin-bottom: 5px;
+}
+
+.myLocation .zipcode {
+  color: azure;
+font-size: 20px;
+}
+
+.myLocation .date {
+  color: azure;
+font-size: 16px;
+}
+
+.current .temp {
+color: azure;
+font-size: 90px;
+font-weight: 900;
+margin: 30px 0px;
+text-shadow: 2px 8px rgba(255, 255, 255, 0.6);
+}
+
+.current .temp span {
+  font-weight: 500;
+}
+.current .weather {
+  color: azure;
+font-size: 32px;
+font-weight: 700;
+font-style: italic;
+margin-bottom: 15px;
+text-shadow: 1px 4px rgba(255, 255, 255, 0.4);
+}
+
+.current .hi-lo {
+color: azure;
+font-size: 24px;
+font-weight: 500;
+text-shadow: 0px 4px rgba(255, 255, 255, 0.4);
+}
+
+.humidity {
+  color:azure;
+}
+
+.wind {
+  color:azure;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+  color: azure;
+}
+
+.page-footer {
+  text-align: right;
+  font-size: 1rem;
+  margin-top: 20px;
+}
+
+.myhum {
+  color: azure;
+}
+
+.mywind {
+  color: azure;
+}
